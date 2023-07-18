@@ -1,1 +1,84 @@
- 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: non;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-section {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35vw;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 15px;
+  padding: 1.5rem 0rem;
+}
+
+.navbar-section > .icon > .navbar-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-section > .icon > .navbar-icon > img {
+  padding: 0.5rem;
+}
+
+.navbar-section > .icon > .navbar-icon > h1 {
+  font: normal normal 700 45px / normal 'Work Sans';
+  color: #0b0223;
+  padding: 0.5rem;
+}
+
+.navbar-section > .icon > .navbar-icon > h1 > span {
+  color: #ff42a5;
+}
+
+.navbar-section > .navbar-items {
+  display: flex;
+}
+
+.navbar-section > .navbar-items > .navbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.navbar-section > .navbar-items > .navbar-item > li {
+  list-style: none;
+  font: normal normal 500 18px / normal 'Work Sans';
+  color: #3c354f;
+}
+
+.navbar-section > .navbar-items > .navbar-item > .inside-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 17px 23px;
+}
+
+.inside-item > li {
+  list-style: none;
+  font: normal normal 500 18px / normal 'Work Sans';
+  padding: 0.5rem;
+}
+
+.inside-item > i:nth-child(2) {
+  color: #f61c0d;
+  padding: 0 0.5rem;
+}
+.inside-item > i:nth-child(3) {
+  color: #000000;
+  padding: 0 0.5rem;
+}
