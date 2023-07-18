@@ -126,16 +126,110 @@ body {
   padding: 0 0.5rem;
 }
 
+/* !############## */
 /* !header section */
+/* !############## */
+
+/* ! Header section responsive */
+
+@media (max-width: 480px) {
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: none !important;
+  }
+
+  .header-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-tag > .header-para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px !important;
+    margin: 10px !important;
+  }
+
+  .header-para > p {
+    font-size: 15px !important;
+  }
+
+  .header-tag > h3 {
+    font-size: 35px !important;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .header-tag > h1 {
+    font-size: 60px !important;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .header-tag > .header-button > button {
+    font-size: 15px !important;
+    margin-top: 3rem !important;
+  }
+
+  .header-tag > .header-button > button:nth-child(1) {
+    padding: 20px !important;
+  }
+  .header-tag > .header-button > button:nth-child(2) {
+    padding: 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: none !important;
+  }
+
+  .header-section > .left-header {
+    background-image: url(./Img/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 80vw;
+    height: 80vh;
+    order: 2;
+  }
+
+  .header-section > .right-header {
+    order: 1;
+  }
+
+  .right-header-img {
+    width: 70vw;
+  }
+
+  .right-header-img > img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* ! Header section responsive */
 
 .header-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20vw;
-  background: url(./Img/Group\ 14.png);
+  gap: 17vw;
+  background-image: url(./Img/Group\ 14.png);
   background-repeat: no-repeat;
   background-size: contain;
+  padding: 2rem 0rem;
 }
 
 .header-section > .left-header {
@@ -143,6 +237,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem 0rem;
 }
 
 .header-section > .left-header > .header-tag > h3 {
