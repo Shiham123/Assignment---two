@@ -324,3 +324,112 @@ body {
 .second-img > img:nth-child(2) {
   width: 50%;
 }
+
+/* ! ################## */
+/* ! gamer section */
+/* ! ################ */
+
+@media (max-width: 768px) {
+  .gamer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-gamer {
+    text-align: center !important;
+  }
+
+  .right-gamer > h6 {
+    margin: 3rem 0rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gamer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-gamer {
+    text-align: center !important;
+  }
+
+  .right-gamer > h1 {
+    font-size: 40px !important;
+  }
+  .right-gamer > p {
+    font-size: 10px !important;
+  }
+
+  .right-gamer > button {
+    padding: 1rem 1.5rem !important;
+    font-size: 20px !important;
+  }
+
+  .right-gamer > h6 {
+    font-size: 20px !important;
+  }
+}
+
+.gamer-section {
+  padding: 3rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gamer-left-img {
+  width: 100%;
+  height: 100%;
+}
+.gamer-left-img > img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-gamer {
+  text-align: right;
+}
+
+.right-gamer > h1 {
+  font: normal normal 700 48px / normal 'Work Sans';
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.right-gamer > p {
+  color: #534c64;
+  font: normal normal 400px 18px/ 30px 'Work Sans';
+  padding: 10px;
+}
+
+.right-gamer > button {
+  padding: 1.5rem 3rem;
+  margin: 1rem 1rem;
+  color: #ffffff;
+  font: normal normal 600 20px / normal 'Work Sans';
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+}
+
+.right-gamer > h6 {
+  color: #534c64;
+  font: normal normal 700 32px/45px 'Work Sans';
+}
+
+.right-gamer > h6 > span {
+  font-weight: 300;
+}
+
+/* ! ################## */
+/* ! gamer section */
+/* ! ################ */
