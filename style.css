@@ -431,5 +431,58 @@ body {
 }
 
 /* ! ################## */
-/* ! gamer section */
+/* ! online gaming section */
 /* ! ################ */
+
+.online-section {
+  margin-top: 7rem;
+}
+
+.online-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.online-header > h1 {
+  font: normal normal 700 48px / normal 'Work Sans';
+  color: #0b0223;
+  margin: 20px 0px;
+}
+
+.online-header > h1 > span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.online-header > p {
+  color: #534c64;
+  font: normal normal 400 18px / 30px 'Work Sans';
+}
+
+.online-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0rem;
+}
+
+.online-items > .online-item {
+  padding: 2rem;
+  border: none;
+  width: 400px;
+  height: 300px;
+}
+
+.online-items > .online-img {
+  width: 100%;
+  height: 100%;
+}
+
+.online-img > img {
+  width: 100%;
+  height: 100%;
+}
