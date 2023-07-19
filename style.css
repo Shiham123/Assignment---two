@@ -952,3 +952,71 @@ body {
 .career-section > .right-career {
   background-color: #ff42a5;
 }
+
+/* ! &************************* */
+/* Button section */
+/* ! &************************* */
+
+@media (max-width: 480px) {
+  .button-section {
+    display: none;
+  }
+}
+
+@media (max-width: 786px) {
+  .button-section {
+    padding: 3rem !important;
+  }
+  .button-one button {
+    width: calc(33.33% - 10px) !important;
+  }
+  .button-one > button > p {
+    font-size: 13px !important;
+  }
+}
+
+.button-section {
+  padding: 10rem 10rem;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+
+.button-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.button-one {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-one > button {
+  width: calc(20% - 10px);
+  border-radius: 50px;
+  background: #fff;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0rem;
+}
+
+.button-one > button > p {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: normal normal 600 20px / normal 'Work Sans';
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button-one > button:hover {
+  border: 2px solid #0b0223;
+  cursor: pointer;
+}
