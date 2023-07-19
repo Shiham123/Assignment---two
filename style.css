@@ -14,7 +14,7 @@ body {
 /* ! Responsive section  */
 /* ! *************************  */
 
-@media (max-width: 512px) {
+@media (max-width: 576px) {
   .navbar-section {
     display: flex;
     flex-direction: column;
@@ -132,7 +132,7 @@ body {
 
 /* ! Header section responsive */
 
-@media (max-width: 512px) {
+@media (max-width: 576px) {
   .header-section {
     display: flex;
     flex-direction: column;
@@ -247,6 +247,7 @@ body {
   font: normal normal 800 95px / normal 'Work Sans';
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -344,7 +345,7 @@ body {
   }
 }
 
-@media (max-width: 512px) {
+@media (max-width: 576px) {
   .gamer-section {
     display: flex;
     flex-direction: column;
@@ -437,7 +438,7 @@ body {
 /* ! online gaming section */
 /* ! ################ */
 
-@media (max-width: 512px) {
+@media (max-width: 576px) {
   .online-header {
     display: flex;
   }
@@ -576,7 +577,7 @@ body {
 /* ! Play gaming section */
 /* ! ################ */
 
-@media (max-width: 512px) {
+@media (max-width: 576px) {
   .right-play {
     margin: 0 auto;
     text-align: center;
@@ -663,8 +664,9 @@ body {
 
 .left-play > h1 > span {
   display: block;
-  background: linear-gradient(to right, #f948b2, #8758f1);
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -688,7 +690,7 @@ body {
 /* ! ----%%%%%%%%%%%%%%---------- */
 /* ! ----%%%%%%%%%%%%%%---------- */
 
-@media (max-width: 512px) {
+@media (max-width: 576px) {
   .left-two-play > h1 {
     font-size: 30px !important;
     text-align: center !important;
@@ -785,8 +787,9 @@ body {
 
 .left-two-play > h1 > span {
   display: block;
-  background: linear-gradient(to right, #f948b2, #8758f1);
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -812,7 +815,7 @@ body {
 
 /* Responsive */
 
-@media (max-width: 512px) {
+@media (max-width: 576px) {
   .left-career > p {
     font-size: 10px !important;
     line-height: 25px !important;
@@ -957,7 +960,7 @@ body {
 /* Button section */
 /* ! &************************* */
 
-@media (max-width: 512px) {
+@media (max-width: 576px) {
   .button-section > .button-one {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
