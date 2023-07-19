@@ -434,6 +434,49 @@ body {
 /* ! online gaming section */
 /* ! ################ */
 
+@media (max-width: 480px) {
+  .online-header {
+    display: flex;
+  }
+
+  .online-header > h1 {
+    font-size: 30px !important;
+  }
+
+  .online-header > p {
+    font-size: 20px !important;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0rem 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .online-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .online-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .online-item {
+    margin: 3rem 0rem;
+  }
+
+  .online-item > p {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.5rem 0rem;
+  }
+}
+
 .online-section {
   margin-top: 7rem;
 }
@@ -473,16 +516,59 @@ body {
 .online-items > .online-item {
   padding: 2rem;
   border: none;
+}
+
+.online-item {
   width: 400px;
-  height: 300px;
+  height: 400px;
 }
 
 .online-items > .online-img {
-  width: 100%;
-  height: 100%;
+  position: relative;
 }
 
 .online-img > img {
   width: 100%;
   height: 100%;
 }
+
+.online-item > .online-img {
+  position: relative;
+}
+
+.online-item > .online-img:hover .hover-items {
+  cursor: pointer;
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.hover-items {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.473);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-items > i {
+  font-size: 5rem;
+  color: #4ec5f7;
+}
+
+.online-item > p {
+  color: #534c64;
+  font: normal normal 500 20px/30px 'Work Sans';
+}
+
+/* ! ################## */
+/* ! online gaming section */
+/* ! ################ */
