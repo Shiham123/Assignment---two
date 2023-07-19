@@ -958,8 +958,20 @@ body {
 /* ! &************************* */
 
 @media (max-width: 480px) {
-  .button-section {
-    display: none;
+  .button-section > .button-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .button-one > button {
+    grid-template-columns: repeat(2, 1fr);
+    border: none !important;
+  }
+
+  .button-one > button > p {
+    padding-left: 15px !important;
   }
 }
 
@@ -1153,6 +1165,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   padding: 0rem 1rem;
   font: normal normal 500 16px / normal 'Work Sans';
+  cursor: pointer;
 }
 
 .footer-copyright {
