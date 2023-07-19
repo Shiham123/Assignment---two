@@ -570,5 +570,235 @@ body {
 }
 
 /* ! ################## */
-/* ! online gaming section */
+/* ! Play gaming section */
 /* ! ################ */
+
+@media (max-width: 480px) {
+  .right-play {
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 35px !important;
+    margin-left: 0 !important;
+  }
+
+  .right-play-img > img {
+    width: 300px !important;
+    height: 300px !important;
+    position: relative !important;
+  }
+
+  .inside-play {
+    position: absolute !important;
+    bottom: -15% !important;
+    left: -40% !important;
+  }
+
+  .inside-play > img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .play-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .right-play {
+    margin-top: -25rem;
+  }
+
+  .right-play-img {
+    width: 400px !important;
+    height: 400px !important;
+  }
+
+  .right-play-img > img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .inside-play {
+    position: absolute !important;
+    bottom: 10%;
+    right: 10%;
+  }
+
+  .inside-play > img {
+    width: 200px !important;
+    height: 230px !important;
+  }
+
+  .left-play > h1 {
+    text-align: center !important;
+  }
+
+  .left-play > p {
+    text-align: center !important;
+  }
+}
+
+/* ! ################ */
+
+.play-section {
+  margin: 15rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+}
+
+.left-play > h1 {
+  color: #0b0223;
+  font: normal normal 700 48px/60px 'Work Sans';
+  text-align: right;
+}
+
+.left-play > h1 > span {
+  display: block;
+  background: linear-gradient(to right, #f948b2, #8758f1);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.left-play > p {
+  color: #534c64;
+  font: normal normal 400 18px / 30px 'Work Sans';
+  text-align: right;
+}
+
+.right-play-img {
+  position: relative;
+}
+
+.inside-play {
+  position: absolute;
+  bottom: -30%;
+  left: -20%;
+}
+
+/* ! ----%%%%%%%%%%%%%%---------- */
+/* ! ----%%%%%%%%%%%%%%---------- */
+/* ! ----%%%%%%%%%%%%%%---------- */
+
+@media (max-width: 480px) {
+  .left-two-play > h1 {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+  .left-two-play > p {
+    font-size: 15px !important;
+    text-align: center !important;
+  }
+
+  .right-two-play > .right-two-play-img {
+    width: 300px !important;
+    height: 300px !important;
+    position: relative;
+  }
+
+  .right-two-play-img > img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .inside-two-play {
+    position: absolute !important;
+    bottom: -50% !important;
+    right: -30% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .play-two-section {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .left-two-play {
+    order: 1;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .left-two-play > h1 {
+    text-align: center !important;
+  }
+
+  .left-two-play > p {
+    text-align: center !important;
+  }
+
+  .right-two-play {
+    margin-top: -20rem !important;
+    order: 2;
+  }
+
+  .right-two-play-img {
+    width: 400px !important;
+    height: 400px !important;
+  }
+
+  .right-two-play-img > img {
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+  }
+
+  .inside-two-play {
+    position: absolute;
+    bottom: -25% !important;
+    right: -10% !important;
+  }
+
+  .inside-two-play > img {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
+
+/* ! ----%%%%%%%%%%%%%%---------- */
+
+.play-two-section {
+  margin: 15rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+}
+
+.left-two-play > h1 {
+  color: #0b0223;
+  font: normal normal 700 48px/60px 'Work Sans';
+  text-align: left;
+}
+
+.left-two-play > h1 > span {
+  display: block;
+  background: linear-gradient(to right, #f948b2, #8758f1);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.left-two-play > p {
+  color: #534c64;
+  font: normal normal 400 18px / 30px 'Work Sans';
+  text-align: left;
+}
+
+.right-two-play-img {
+  position: relative;
+}
+
+.inside-two-play {
+  position: absolute;
+  bottom: -30%;
+  right: -20%;
+}
