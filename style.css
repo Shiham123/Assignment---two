@@ -14,7 +14,7 @@ body {
 /* ! Responsive section  */
 /* ! *************************  */
 
-@media (max-width: 480px) {
+@media (max-width: 512px) {
   .navbar-section {
     display: flex;
     flex-direction: column;
@@ -132,7 +132,7 @@ body {
 
 /* ! Header section responsive */
 
-@media (max-width: 480px) {
+@media (max-width: 512px) {
   .header-section {
     display: flex;
     flex-direction: column;
@@ -344,7 +344,7 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 512px) {
   .gamer-section {
     display: flex;
     flex-direction: column;
@@ -437,7 +437,7 @@ body {
 /* ! online gaming section */
 /* ! ################ */
 
-@media (max-width: 480px) {
+@media (max-width: 512px) {
   .online-header {
     display: flex;
   }
@@ -576,7 +576,7 @@ body {
 /* ! Play gaming section */
 /* ! ################ */
 
-@media (max-width: 480px) {
+@media (max-width: 512px) {
   .right-play {
     margin: 0 auto;
     text-align: center;
@@ -688,7 +688,7 @@ body {
 /* ! ----%%%%%%%%%%%%%%---------- */
 /* ! ----%%%%%%%%%%%%%%---------- */
 
-@media (max-width: 480px) {
+@media (max-width: 512px) {
   .left-two-play > h1 {
     font-size: 30px !important;
     text-align: center !important;
@@ -812,7 +812,7 @@ body {
 
 /* Responsive */
 
-@media (max-width: 480px) {
+@media (max-width: 512px) {
   .left-career > p {
     font-size: 10px !important;
     line-height: 25px !important;
@@ -957,7 +957,7 @@ body {
 /* Button section */
 /* ! &************************* */
 
-@media (max-width: 480px) {
+@media (max-width: 512px) {
   .button-section > .button-one {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
