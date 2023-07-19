@@ -153,7 +153,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px !important;
-    margin: 10px !important;
   }
 
   .header-para > p {
@@ -163,7 +162,6 @@ body {
   .header-tag > h3 {
     font-size: 35px !important;
     margin: 0 auto;
-    text-align: center;
   }
 
   .header-tag > h1 {
@@ -380,6 +378,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
 }
 
 .gamer-left-img {
@@ -801,4 +804,151 @@ body {
   position: absolute;
   bottom: -30%;
   right: -20%;
+}
+
+/* ! ----%%%%%%%%%%%%%%---------- */
+/* ! Career section  */
+/* ! ----%%%%%%%%%%%%%%---------- */
+
+/* Responsive */
+
+@media (max-width: 480px) {
+  .left-career > p {
+    font-size: 10px !important;
+    line-height: 25px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .career-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-career {
+    padding: 5rem 5rem !important;
+  }
+
+  .left-career > h1 {
+    padding: 0 !important;
+    font-size: 40px !important;
+  }
+
+  .left-career > p {
+    padding: 0 !important;
+    font-size: 20px !important;
+  }
+
+  .inside-career {
+    padding: 0 !important;
+  }
+
+  .inside-career-left > li {
+    font-size: 15px !important;
+  }
+
+  .inside-career-right > li {
+    font-size: 15px !important;
+  }
+
+  .career-button {
+    padding: 0 !important;
+    margin-top: 1rem !important;
+    margin-left: -1.5rem !important;
+  }
+
+  .career-button > button {
+    padding: 20px 30px !important;
+    font-size: 20px !important;
+  }
+
+  .career-section > .right-career {
+    background-color: #ff42a5 !important;
+  }
+
+  .right-career-img > img {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+    height: 50%;
+    padding: 3rem !important;
+  }
+}
+
+/* ! Responsive */
+
+.career-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.career-section > .left-career {
+  padding: 103px 0px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+}
+
+.left-career > h1 {
+  color: white;
+  font: normal normal 700 48px/60px 'Work Sans';
+  padding-left: 10rem;
+}
+
+.left-career > p {
+  color: #ffffff;
+  font: normal normal 400 18px / 30px 'Work Sans';
+  text-align: justify;
+  padding-left: 10rem;
+}
+
+.left-career > .inside-career {
+  padding-left: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inside-career > .inside-career-left {
+  padding-top: 3rem;
+  list-style: none;
+}
+
+.inside-career-left > li {
+  color: white;
+  font: normal normal 600 20px / 40px 'Work Sans';
+  text-align: left;
+}
+
+.inside-career > .inside-career-right {
+  padding-top: 3rem;
+  list-style: none;
+}
+
+.inside-career-right > li {
+  font: normal normal 600 20px / 40px 'Work Sans';
+  color: white;
+  text-align: right;
+}
+
+.career-button {
+  padding-left: 8.7rem;
+  padding-top: 3rem;
+}
+
+.career-button > button {
+  padding: 1.5rem 3rem;
+  margin: 1rem 1rem;
+  border-radius: 48px;
+  background-color: white;
+  color: #ff42a5;
+  font: normal normal 600 20px / normal 'Work Sans';
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.career-section > .right-career {
+  background-color: #ff42a5;
 }
